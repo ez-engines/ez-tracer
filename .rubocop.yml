@@ -1,0 +1,31 @@
+require: rubocop
+
+AllCops:
+  TargetRubyVersion: 2.6
+  NewCops: enable
+  Exclude:
+    - bin/*
+    - Guardfile
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
+
+Layout/HashAlignment:
+  EnforcedColonStyle: table
+  EnforcedHashRocketStyle: table
+
+Metrics/BlockLength:
+  ExcludedMethods: [
+    'describe',
+    'xdescribe',
+    'context',
+    'xcontext',
+    'it',
+    'xit',
+    'let',
+    'before',
+    'after'
+  ]
