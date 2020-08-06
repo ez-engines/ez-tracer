@@ -1,5 +1,7 @@
 # Ez::Tracer
 
+![Rubocop & RSpec](https://github.com/ez-engines/ez-tracer/workflows/Ruby/badge.svg)
+
 It is often hard to give an answer to the question: "What is fu#1ing going on in my app?". Why data is so strange? What changed the state, when and why?
 
 It's because you don't trace workflows. EzTracer comes here to rescue you from blind and silent operations.
